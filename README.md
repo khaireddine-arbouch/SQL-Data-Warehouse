@@ -90,17 +90,20 @@ All tools used in this project are free and accessible:
 ```plaintext
 SQL-Data-Warehouse/
 ├── datasets/                   # Raw data files (CSV)
-├── docs/                       # Diagrams and documentation
-│   ├── data_architecture.drawio
-│   ├── data_flow.drawio
-│   ├── data_models.drawio
-│   ├── naming-conventions.md
+├── docs/                       # documentation
 │   ├── data_catalog.md
+├── assets/    
+│   ├── Bronze Layer Data Flow.png
+│   ├── Data Architecture.png
+│   ├── Gold Layer Data Flow.png
+│   ├── Silver Layer Data Flow.png
 ├── scripts/
 │   ├── bronze/                 # Raw data ingestion SQL scripts
 │   ├── silver/                 # Data cleansing and transformation scripts
 │   ├── gold/                   # Star schema modeling and analytics scripts
 ├── tests/                      # Data quality and validation scripts
+│   ├── quality_checks_gold.sql                   
+│   ├── quality_checks_silver.sql          
 └── README.md                   # Project overview
 ```
 ---
